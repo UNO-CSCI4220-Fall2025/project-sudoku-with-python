@@ -51,8 +51,7 @@ The framework is composed of the following files:
 | autograder.py      | The autrograder |
 
 
-
-Do not modify any existing files. Modifying any files may cause the autograder to fail. You can add new files if you want.
+Do not modify any other existing files. Modifying any files may cause the autograder to fail. You will need to add new files.
 
 We recommend that you create new commits frequently when doing this project. If at some point you realize you made a mistake, you can revert to a previous commit. Pushing to the GitHub repository may also help you in case you accidentally lose your local copy. If you have doubts about Git or Github, or you want to learn more about it, then you can read the tutorial at the following link:
 
@@ -62,7 +61,8 @@ https://github.com/Advanced-Concepts-Programming-Languages/github-starter-course
 
 ## Question 1: A Sudoku Solver
 
-We start by creating a Soduku solver that uses the same input and output format that we used in the first project. The first difference concerning the first project is that our new solver will receive only one file containing the input. For instance, by running the following command
+We start by creating a Soduku solver that uses the same input and output format that we used in the first project. The first difference concerning the first project is that our new solver will receive only one file containing the input. You will write the code for this question in a new file named ```sudoku1.py``` that you need to create. 
+For instance, by running the following command
 ```bash
 python sudoku1.py instances/lp/ex00.lp
 ```
